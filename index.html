@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+    img{
+        opacity: 0;
+        .app canvas
+        {
+            position: fixed;
+            z-index: 0;
+            top: 0;
+            left: 0;
+        }
+    }
+</style>
+<body>
+    <div class="w-full h-screen bg-zinc-900 flex text-white">
+        <div class=" canvas w-1/2 h-screen relative ">
+            
+            <div class="images w-[25vw] h-[32vw] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                <img src="/images/first.jpg" alt="" class="absolute w-full h-full object-cover">
+                <img src="/images/second.jpg" alt="" class="absolute w-full h-full object-cover">
+                <img src="/images/third.jpg" alt="" class="absolute w-full h-full object-cover">
+                <img src="/images/fourth.jpg" alt="" class="absolute w-full h-full object-cover">
+            </div>
+
+        </div>
+        <div class="w-1/2 h-screen flex items-center justify-center">
+            <div class="links flex flex-col gap-10">
+                <a class="lowercase transition-all hover:ml-5 opacity-30 hover:opacity-100 block tracking-tighter text-6xl "
+                    href="">
+                    <small class="text-xl tracking-normal">
+                        0.1
+                    </small>
+                    Bello Spettacolo
+                </a>
+                <a class="lowercase transition-all hover:ml-5 opacity-30 hover:opacity-100 block tracking-tighter text-6xl"
+                    href="">
+                    <small class="text-xl tracking-normal">
+                        0.2
+                    </small>
+                    Dolce far niente
+                </a>
+                <a class="lowercase transition-all hover:ml-5 opacity-30 hover:opacity-100 block tracking-tighter text-6xl"
+                    href="">
+                    <small class="text-xl tracking-normal">
+                        0.3
+                    </small>
+                    Sofisticado
+                </a>
+                <a class="lowercase transition-all hover:ml-5 opacity-30 hover:opacity-100 block tracking-tighter text-6xl"
+                    href="">
+                    <small class="text-xl tracking-normal">
+                        0.4
+                    </small>
+                    Magnifico
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+<script src="./main.js" type="module"></script>
+
+</html>
